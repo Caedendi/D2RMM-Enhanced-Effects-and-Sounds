@@ -1,7 +1,45 @@
 {
-  "name": "Enhanced effects and sounds",
+  "name": "Enhanced Effects and Sounds",
   "description": "Fixes unsatisfactory visual effects, animation, sounds, and some skills that had flaws in their use.",
-  "author": "anwjrzlffj",
+  "author": "anwjrzlffj, Caedendi",
   "website": "https://www.nexusmods.com/diablo2resurrected/mods/423",
-  "version": "2.2"
+  "version": "3.0.0",
+  "config": [
+    {
+      "id": "JunkSection",
+      "type": "section",
+      "name": "Junk",
+      "defaultExpanded": false
+    },
+    {
+      "id": "ShouldShowRunesLow",
+      "type": "checkbox",
+      "name": "Show Low",
+      "description": "Show Low Runes (El [1] - Dol [14], except Ral [8]).",
+      "defaultValue": true
+    },
+    {
+      "id": "GoldAmount",
+      "type": "select",
+      "name": "Gold: Color",
+      "description": "Customize the color of the tooltip for gold drops. [CSTM-GLD]",
+      "defaultValue": "wg",
+      "options": [
+        { "value": "none",   "label": "Default" },
+        { "value": "g",      "label": "All gold" },
+        { "value": "wg",     "label": "White amount, gold suffix" },
+        { "value": "gw",     "label": "Gold amount, white suffix" },
+        { "value": "custom", "label": "Custom" }
+      ]
+    }, 
+    {
+      "id": "HiddenItemTooltipSize",
+      "type": "number",
+      "name": "Tooltip width for hidden items",
+      "description": "Set how many spaces wide the tooltip for hidden items is (0-25).",
+      "defaultValue": 0,
+      "minValue": 0,
+      "maxValue": 25
+    },
+  ]
 }
