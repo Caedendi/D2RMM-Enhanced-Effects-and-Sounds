@@ -1,2 +1,3 @@
-# D2RMM-Enhanced-Effects-and-Sounds
-Proper D2RMM port of anwjrzlffj's awesome mod
+Enhanced Effects and Sounds for D2RMM
+
+# UNDER CONSTRUCTION
